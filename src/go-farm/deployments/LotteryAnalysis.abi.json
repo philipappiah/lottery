@@ -1,0 +1,134 @@
+[
+  {
+    "inputs": [],
+    "name": "Lottery_GOC",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "Lottery_HUSD",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_user",
+        "type": "address"
+      }
+    ],
+    "name": "getUserGOCTickets",
+    "outputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "_tickets",
+        "type": "uint256[]"
+      },
+      {
+        "internalType": "uint256[]",
+        "name": "_issueIndex",
+        "type": "uint256[]"
+      },
+      {
+        "internalType": "bool[]",
+        "name": "_claimed",
+        "type": "bool[]"
+      },
+      {
+        "internalType": "uint256[]",
+        "name": "_reward",
+        "type": "uint256[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_user",
+        "type": "address"
+      }
+    ],
+    "name": "getUserHUSDTickets",
+    "outputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "_tickets",
+        "type": "uint256[]"
+      },
+      {
+        "internalType": "uint256[]",
+        "name": "_issueIndex",
+        "type": "uint256[]"
+      },
+      {
+        "internalType": "bool[]",
+        "name": "_claimed",
+        "type": "bool[]"
+      },
+      {
+        "internalType": "uint256[]",
+        "name": "_reward",
+        "type": "uint256[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "_tickets",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "getGOCLotteryNumbers",
+    "outputs": [
+      {
+        "internalType": "uint8[4][]",
+        "name": "_numbers",
+        "type": "uint8[4][]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "_tickets",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "getHUSDLotteryNumbers",
+    "outputs": [
+      {
+        "internalType": "uint8[4][]",
+        "name": "_numbers",
+        "type": "uint8[4][]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
